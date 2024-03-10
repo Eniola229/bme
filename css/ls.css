@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.logo{
+    justify-content: center;
+    text-align: center;
+}
+.logo h1{
+    color: rgb(1, 82, 1);
+    font-family: Georgia;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 47px;
+}
+.logo h1 span{
+    color: rgb(1, 82, 1);
+    font-family: monospace;
+    font-weight: bolder;
+    font-style: italic;
+}
+.main{
+    text-align: center;
+}
+.main .login-message{
+    color: rgb(139, 78, 4);
+    font-family: cursive;
+    font-weight: lighter;
+}
+form{
+    border: 2px solid rgb(1, 81, 1);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 2%;
+    background-color: transparent;
+    box-shadow: 2px 2px 2px 0 darkgoldenrod;
+}
+
+.main form h3{
+    color: darkgreen;
+    font-family: Georgia;
+    font-weight: bolder;
+    font-size: 30px; 
+}
+.main form input{
+    margin-top: 9%;
+    width: 90%;
+    height: 10vh;
+    border: 2px solid rgb(1, 81, 1);
+    border-radius: 6px;
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.main form input::placeholder{
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: cursive;
+    left: 5%;
+    transition: 1s;
+}
+.main form input:hover{
+      transition: all 1s;
+      border: none;
+      border-bottom: 2px solid rgb(0, 100, 0);
+  
+}
+.main form p{
+    color: red;
+    font-weight: lighter;
+    font-size: 17px;
+}
+.main form button{
+    margin-top: 5%;
+    width: 90%;
+    height: 8vh;
+    background-color: rgb(0, 100, 0);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    transition: 1s;
+}
+.main form button:hover{
+    background-color: transparent;
+    color: rgb(0, 100, 0);
+    font-weight: bolder;
+    transition: 1s;
+    border: 2px solid rgb(1, 110, 1);
+}
+.main form h4 a{
+    text-decoration: underline;
+    color: rgb(101, 56, 1);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
+p{
+    color: rgb(81, 59, 3);
+    font-weight: bolder;
+    font-family: monospace;
+}
+p span{
+    color: red;
+    cursor: pointer;
+}

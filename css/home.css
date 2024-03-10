@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 2px 2px 2px;
+    margin-top: 2%;
+    width: 100%;
+}
+.header .logo h1{
+    color: rgb(1, 82, 1);
+    font-family: Georgia;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 30px;
+    justify-content: flex-start;
+}
+.header .logo h1 span{
+    color: rgb(1, 82, 1);
+    font-family: monospace;
+    font-weight: bolder;
+    font-style: italic;
+}
+.header .username {
+    color: rgb(1, 90, 1);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.header .profile button{
+    background-color: rgb(1, 87, 1);
+    color: rgb(255, 255, 255);
+    border: none;
+    height: 5vh;
+    width: 130%;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 1s;
+}
+.header .profile button:hover{
+    background-color: transparent;
+    color: rgb(0, 100, 0);
+    border: 2px solid rgb(0, 100, 0);
+    transition: 1s;
+}
+.header .s form button{
+    background-color: transparent;
+    height: 5vh;
+    width: 140%;
+    border: 2px solid rgb(1, 86, 1);
+    border-radius: 3px;
+    color: rgb(1, 86, 1);
+    font-weight: bolder;
+    cursor: pointer;
+}
+.header .notification form button{
+    background-color: rgb(156, 88, 4);
+    font-weight: bolder;
+    border:  none;
+    width: 200%;
+    color: white;
+    cursor: pointer;
+}
+.main .post{
+    margin-top: 2%;
+    border: 2px solid rgb(1, 86, 1);
+    height: 18vh;
+    width: 80%;
+    border-radius: 3px;
+    justify-content: center;
+    margin: auto;
+}
+.main .post form{
+    display: flex;
+}
+.main .post form .express{
+    width: 80%;
+    height: 9vh;
+    border: 2px solid rgb(1, 86, 1);
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(2, 84, 2);
+    font-weight: bolder;
+    background-color: transparent;
+}
+.main .post form .express::placeholder{
+    text-align: center;
+    color: rgb(2, 84, 2);
+    font-weight: bolder;
+}
+.main .post form button{
+    width: 17%;
+    height: 7vh;
+    margin-top: 1%;
+    border-radius: 50px;
+    border: 2px solid rgb(1, 86, 1);
+    background-color: rgb(1, 86, 1);
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 1s;
+}
+.main .post form button:hover{
+    background-color: transparent;
+    color: rgb(1, 86, 1);
+}
+.main .sections{
+    display: flex;
+    justify-content: space-around;
+}
+.main .sections form button{
+    background-color: green;
+    border: none;
+    color: rgb(255, 252, 252);
+    justify-content: space-around;
+    height: 4vh;
+    width: 120%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 1s;
+}
+.main .sections form button:hover{
+    color: rgb(1, 82, 1);
+    border: 2px solid rgb(1, 82, 1);
+    background-color: transparent;
+}
+.page-all{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.page-all .trending{
+    position: fixed;
+    border: 2px solid rgb(1, 87, 1);
+    width: 25%;
+    margin-left: -70%;
+    height: 100vh;
+   
+}
+.page-all .trending .top-t{
+    background-color: rgb(1, 87, 1);
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    text-align: center;
+    height: 10vh;
+}
+.page-all .all-news{
+    width: 40%;
+    height: auto;
+    justify-content: space-around;
+}
+.page-all .all-news .local .top{
+    display: flex;
+    justify-content: space-around;
+}
+.page-all .all-news .local .top form button{
+    width: 200%;
+    background-color: darkgreen;
+    border: none;
+    height: 6vh;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.page-all .all-news .local .top form .news{
+    background-color: transparent;
+    color: darkgreen;
+    font-weight: bolder;
+    border: 2px solid darkgreen;
+}
+.pages{
+    position: fixed;
+    border: 2px solid rgb(1, 87, 1);
+    width: 25%;
+    margin-left: 70%;
+    height: 100vh;
+}
+.pages .top-p{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    font-family: monospace;
+    height: 10vh;
+}
+.settings{
+    justify-content: center;
+    margin: auto;
+    margin-top: 90%;
+    border-top: 2px solid darkgreen;
+    height: 30vh;
+    background-color: darkgreen;
+    
+}
+.settings .logout button{
+    background-color: #fff;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    width: 98%;
+    height: 5vh;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.status .userstatus{
+    border: 3px solid darkgreen;
+    width: 20%;
+    border-radius: 15px;
+    height: 30vh;
+    background: darkgreen;
+}
+.status .userstatus .card-img img{
+    height: 20vh;
+    width: 100%;
+    border-radius: 11px 11px 0 0;
+}
+.textstatus form{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+.textstatus form button{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background: darkorange;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid darkgreen;
+    transition: 1s;
+}
+.textstatus form button:hover{
+    background: darkgreen;
+   color: darkorange;
+}
